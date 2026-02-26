@@ -1,0 +1,25 @@
+body {
+    background-color: #33b3a6;
+    font-family: system-ui;
+    margin: 0;
+    padding: 48px;
+}
+.link {
+    padding: 0 16px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer; /* the cursor */
+    border: outset 2px black;
+    background-color: #ccc;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.link:active {
+    border-style: inset;
+}

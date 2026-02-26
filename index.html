@@ -23,7 +23,6 @@
             }
 
             .link {
-                border: solid 1px black;
                 padding: 0 16px;
                 height: 32px;
                 display: inline-flex;
@@ -31,10 +30,16 @@
                 align-items: center;
                 color: black;
                 text-decoration: none;
+                cursor: pointer; /* the cursor */
+                border: outset 2px black;
+                background-color: #ccc;
             }
 
             .link:hover {
                 text-decoration: underline;
+            }
+            .link:active {
+                border-style: inset;
             }
         </style>
     </head>

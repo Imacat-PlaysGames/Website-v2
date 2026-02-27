@@ -6,7 +6,9 @@
 /* Custom styles you may delete or modify if you'd like */
 body {
     background-color: #33b3a6;
-    font-family: system-ui;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
     margin: 0;
     padding: 48px;
 }

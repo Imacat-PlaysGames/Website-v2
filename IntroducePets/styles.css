@@ -29,11 +29,9 @@ img {
   height: auto;
 }
 .hide {
-    position: fixed;
 	display: none ;
 }
 
 .hide:target {
-    position: fixed;
 	display: block ;
 }

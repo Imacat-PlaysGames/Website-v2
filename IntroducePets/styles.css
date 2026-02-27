@@ -23,3 +23,10 @@ body {
 .link:active {
     border-style: inset;
 }
+.hide {
+	display: none ;
+}
+
+.hide:target {
+	display: block ;
+}

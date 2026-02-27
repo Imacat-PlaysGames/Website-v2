@@ -2,7 +2,7 @@ body {
     background-color: #33b3a6;
     font-family: system-ui;
     margin: 0;
-    padding: 48px;
+    padding: 0px 48px 48px 48px;
 }
 .link {
     padding: 0 16px;

@@ -23,6 +23,10 @@ body {
 .link:active {
     border-style: inset;
 }
+img {
+  max-width: 960px;
+  height: auto;
+}
 .hide {
 	display: none ;
 }

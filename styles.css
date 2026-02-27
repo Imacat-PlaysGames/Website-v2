@@ -13,6 +13,7 @@
 }
 /* Custom styles you may delete or modify if you'd like */
 body {
+    font-family: "Open Sans", sans-serif;
     background-color: #33b3a6;
     margin: 0;
     padding: 48px;

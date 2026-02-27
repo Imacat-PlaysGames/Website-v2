@@ -24,6 +24,7 @@ body > h1 {
 }
 
 .link {
+    font-family: 'Opensanslocal', 'Verdana';
     padding: 0 16px;
     height: 32px;
     display: inline-flex;

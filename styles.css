@@ -13,7 +13,7 @@
 }
 /* Custom styles you may delete or modify if you'd like */
 body {
-    font-family: 'Opensanslocal', 'Verdana';
+    font-family: 'Opensanslocal';
     background-color: #33b3a6;
     margin: 0;
     padding: 48px;
@@ -24,7 +24,6 @@ body > h1 {
 }
 
 .link {
-    font-family: 'Opensanslocal', 'Verdana';
     padding: 0 16px;
     height: 32px;
     display: inline-flex;

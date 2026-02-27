@@ -1,8 +1,11 @@
 body {
     background-color: #33b3a6;
     font-family: system-ui;
-    margin: -2;
+    margin: 0;
     padding: 0px 48px 48px 48px;
+}
+html { 
+    margin: 0;
 }
 .link {
     padding: 0 16px;

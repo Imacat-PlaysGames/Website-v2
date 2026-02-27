@@ -3,13 +3,17 @@
     box-sizing: border-box;
     font-family: inherit;
 }
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url(assets/font/font.ttf) format('truetype');
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Custom styles you may delete or modify if you'd like */
 body {
     background-color: #33b3a6;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-      font-weight: 300;
-    font-optical-sizing: auto;
     margin: 0;
     padding: 48px;
 }

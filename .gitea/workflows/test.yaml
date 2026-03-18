@@ -1,8 +1,6 @@
 name: Gitea Actions Demo
 run-name: ${{ gitea.actor }} is testing out Gitea Actions 🚀
 on: [push]
-volumes:
-  - /hdd/ssh:/root/.ssh
 jobs:
   Explore-Gitea-Actions:
     runs-on: alpine

@@ -9,5 +9,7 @@ jobs:
         - /var/lib/act_runner/.ssh:/root/.ssh
     steps:
       - run: ls /root/.ssh
+      - run: whoami
+      - run: echo $HOME
 #     - run: ssh git@10.0.0.183 cd /var/www/html && git pull
 

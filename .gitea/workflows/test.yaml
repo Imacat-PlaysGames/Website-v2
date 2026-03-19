@@ -4,6 +4,9 @@ on: [push]
 jobs:
   Explore-Gitea-Actions:
     runs-on: alpine
+    container:
+      volumes:
+        - /var/lib/act_runner/.ssh:/root/.ssh
     steps:
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by Gitea!"
       - run: ls /root/.ssh

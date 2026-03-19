@@ -11,5 +11,6 @@ jobs:
       - run: ls /root/.ssh
       - run: whoami
       - run: echo $HOME
-#     - run: ssh git@10.0.0.183 cd /var/www/html && git pull
+      - run: ssh git@10.0.0.183 cd /var/www/html && git pull
+      - run: ls ~/.ssh
 

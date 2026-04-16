@@ -8,5 +8,6 @@ jobs:
       volumes:
         - /var/lib/act_runner/.ssh:/root/.ssh
     steps:
-      - run: ssh git@10.0.0.183 cd '/var/www/html && git pull'
+       - run: echo "hi"
+#      - run: ssh git@10.0.0.183 cd '/var/www/html && git pull'
 

@@ -41,3 +41,8 @@ body {
 h1 { 
     margin: 0;
 }
+hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 50%;
+}

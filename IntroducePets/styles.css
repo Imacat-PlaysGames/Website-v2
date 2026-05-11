@@ -2,7 +2,7 @@
   font-family: 'Opensanslocal';
   font-style: normal;
   font-weight: 300;
-  src: url(assets/font/font.ttf) format('truetype');
+  src: url(/assets/font/font.ttf) format('truetype');
   font-variation-settings:
     "wdth" 100;
 }
